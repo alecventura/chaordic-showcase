@@ -21,6 +21,7 @@ const main = () => {
   const getProductList = () => {
     getJSONP(PRODUCTS_URL, (data) => {
       renderProducts(data);
+      console.log(data);
     });
   };
 

@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  width: 45%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+.reference {
+  border-right: 1px solid #d8eaf7;
+}
+
+.recomendation, .recomendation-title {
+  -webkit-flex-grow: 1;
+  -ms-flex-grow: 1;
+  flex-grow: 4;
+}
+
+.recomendation {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.products {
+  display: flex;
+}
+
+.product {
+  padding: 20px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.product-img {
+  margin: auto;
+}
+
+.product-description {
+  
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 14pt;
+  align-items: center;
+  height: 40px;
+  color: #006699;
+  background-color: #E5F1FB;
+}
