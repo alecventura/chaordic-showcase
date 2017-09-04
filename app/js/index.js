@@ -67,7 +67,7 @@ const index = () => {
   const moveScroll = (elem, destiny, direction, callback) => {
     let left = elem.scrollLeft;
 
-    const frame = () => {
+    const id = setInterval(() => {
       if (direction === 'left') {
         left -= 1;
       } else {
@@ -81,8 +81,7 @@ const index = () => {
         }
         clearInterval(id);
       }
-    };
-    const id = setInterval(frame, 1);
+    }, 1);
   };
 
   const registerSlideEvents = () => {
