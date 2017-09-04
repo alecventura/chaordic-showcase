@@ -2,67 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Chaordic!</title>
     <link rel="stylesheet" href="css/site.css">
   </head>
   <body>
-    <div class="title">
-      <span>Você visitou:</span>
-      <span class="recomendation-title">e talvez se interesse por:</span>
-    </div>
+    <p class="title">
+      <span class="title-reference">Você visitou:</span>
+      <span class="title-recomendation">e talvez se interesse por:</span>
+    </p>
     <div class="content">
-      <div class="reference">
-        <!-- Isso aqui vai ser um template -->
-        <div class="product">
-          <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-          <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-          <span class="old-price">De: R$ 599,00</span>
-          <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-         </div>
-      </div>
+      <article id="reference"></article>
 
-      <div class="recomendation">
-        <div class="products">
-
-          <!-- Isso aqui vai ser um template -->
-          <div class="product">
-              <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-              <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-              <span class="old-price">De: R$ 599,00</span>
-              <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-          </div>
-          <div class="product">
-              <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-              <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-              <span class="old-price">De: R$ 599,00</span>
-              <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-          </div>
-          <div class="product">
-              <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-              <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-              <span class="old-price">De: R$ 599,00</span>
-              <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-          </div>
-          <div class="product">
-              <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-              <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-              <span class="old-price">De: R$ 599,00</span>
-              <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-          </div>
-          <div class="product">
-              <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-              <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-              <span class="old-price">De: R$ 599,00</span>
-              <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-          </div>
-          <div class="product">
-              <img src="http:\\imagens.pontofrio.com.br/Control/ArquivoExibir.aspx?IdArquivo=6665633" alt="" class="product-img">
-              <span>Tablet Smart DL HD7 Kids K71 com 4GB, Wi-Fi, Tela 7\", CÃ¢mera 2MP, Cabo USB, Suporte Ã  Modem 3G, Slot para CartÃ£o e Android 4.0 â€“ Chumbo</span>
-              <span class="old-price">De: R$ 599,00</span>
-              <span class="price">Por: R$ 499,00 <br> ou <strong>12X</strong> de <strong> 41.58</strong> </span>
-          </div>
-        </div>
-      </div>
+      <article id="recomendation">
+        <span class="navigate-left" disabled></span>
+        <div id="recomendation-products"></div>
+        <span class="navigate-right"></span>
+      </article>
     </div>
 
     <script src="js/index.js"></script>

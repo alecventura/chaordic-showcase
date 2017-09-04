@@ -1,0 +1,23 @@
+{
+  "name": "chaordic-showcase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecventura/chaordic-showcase.git"
+  },
+  "author": "Alec Ventura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alecventura/chaordic-showcase/issues"
+  },
+  "homepage": "https://github.com/alecventura/chaordic-showcase#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
